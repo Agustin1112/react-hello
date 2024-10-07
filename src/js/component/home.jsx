@@ -2,6 +2,8 @@ import React from "react";
 import Card from "./card";
 import Jumbotron from "./jumbotron";
 import Navbar from "./navbar";
+import Footer from "./footer";
+
 const Home = () => {
   return (
     <>
@@ -14,11 +16,13 @@ const Home = () => {
           <Card title="Card title 3" text="Ut enim ad minim veniam, quis nostrud exercitation ullamco." imgSrc="https://via.placeholder.com/500x325" />
         </div>
       </div>
+      <Footer />
     </>
   );
 };
 
 export default Home;
+
 
 
 
